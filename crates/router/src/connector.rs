@@ -16,6 +16,7 @@ pub mod datatrans;
 pub mod dummyconnector;
 pub mod ebanx;
 pub mod forte;
+pub mod forter;
 pub mod globalpay;
 pub mod gocardless;
 pub mod gpayments;
@@ -73,7 +74,7 @@ pub use self::{
     aci::Aci, adyen::Adyen, adyenplatform::Adyenplatform, airwallex::Airwallex,
     authorizedotnet::Authorizedotnet, bamboraapac::Bamboraapac, bankofamerica::Bankofamerica,
     billwerk::Billwerk, bluesnap::Bluesnap, boku::Boku, braintree::Braintree, checkout::Checkout,
-    cybersource::Cybersource, datatrans::Datatrans, ebanx::Ebanx, forte::Forte,
+    cybersource::Cybersource, datatrans::Datatrans, ebanx::Ebanx, forte::Forte, forter::Forter,
     globalpay::Globalpay, gocardless::Gocardless, gpayments::Gpayments, iatapay::Iatapay,
     itaubank::Itaubank, klarna::Klarna, mifinity::Mifinity, multisafepay::Multisafepay,
     netcetera::Netcetera, nexinets::Nexinets, nmi::Nmi, noon::Noon, nuvei::Nuvei, opayo::Opayo,

@@ -101,6 +101,7 @@ pub enum Connector {
     Fiservemea,
     Fiuu,
     Forte,
+    Forter,
     Globalpay,
     Globepay,
     Gocardless,
@@ -239,6 +240,7 @@ impl Connector {
 			| Self::Fiservemea
             | Self::Fiuu
             | Self::Forte
+            | Self::Forter
             | Self::Globalpay
             | Self::Globepay
             | Self::Gocardless
@@ -418,6 +420,7 @@ pub enum FrmConnectors {
     /// Signifyd Risk Manager. Official docs: https://docs.signifyd.com/
     Signifyd,
     Riskified,
+    Forter
 }
 
 #[derive(

@@ -523,6 +523,7 @@ impl ConnectorData {
                 }
                 enums::Connector::Signifyd
                 | enums::Connector::Riskified
+                | enums::Connector::Forter
                 | enums::Connector::Gpayments
                 | enums::Connector::Threedsecureio
                 | enums::Connector::Taxjar => {

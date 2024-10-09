@@ -215,6 +215,7 @@ pub enum RoutableConnectors {
     Fiservemea,
     Fiuu,
     Forte,
+    Forter,
     Globalpay,
     Globepay,
     Gocardless,
